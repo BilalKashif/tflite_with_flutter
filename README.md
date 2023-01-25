@@ -4,6 +4,7 @@ This is a sample Flutter application that demonstrates how to use a TF-Lite mode
 
 ## Demo
 Sample app images:
+![](images/ss1.png)
 
 ## How this app works?
 
