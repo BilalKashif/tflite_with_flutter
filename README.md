@@ -4,13 +4,15 @@ This is a sample Flutter application that demonstrates how to use a TF-Lite mode
 
 ## Demo
 Sample app images:
-![](images/ss1.png)
+![](images/ss1.png) ![](images/ss2.png)
 
 ## How this app works?
 
 ### 1. Add Dependencies:
 First, you should have to add tflite dependencies in your app level build.gradle file 
 Project -> Android -> app -> build.gradle
+
+![](images/build_gradle.png)
 
 ```gradle
 dependencies {
@@ -31,6 +33,8 @@ minSdkVersion 21
 ### 2. Add your TF-Lite Model:
 Create assets folder in your android app path
 Project -> android -> app -> source -> main -> assets
+
+![](images/assets.png)
 
 In this Porject I use efficientdet-lite0.tflite model for objectDetection
 
